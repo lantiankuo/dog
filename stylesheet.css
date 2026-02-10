@@ -1,0 +1,24 @@
+/* coding : utf-8 */
+html{
+  background-color: hsl(0,0%,0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  /* 初始化body */
+}
+.main{
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  background: linear-gradient(to bottom, rgb(26,231,41), rgb(26,116,231));
+  -webkit-background-clip: text;
+  color: transparent;
+  line-height: 1.2em;
+  font-family: Georgia, serif;
+}
+.main::before, .main::after{
+  content: "! ! !";
+  display: block;
+}
