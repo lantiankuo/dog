@@ -6,6 +6,7 @@ html{
   align-items: center;
   height: 100%;
   padding: 0;
+  text-align: center;
   /* 初始化body */
 }
 .main{
